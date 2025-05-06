@@ -12,6 +12,7 @@ const App = () => {
         animate={{
           x: [0,800,800,0,0],
           y: [0,0,300,300,0],
+          rotate:[0,360,0,-360,0]
         }}
         transition={{
           duration: 3,
